@@ -101,7 +101,7 @@ main #carousel .carousel-inner .bg-color {
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 3;
+  z-index: 1;
   opacity: 0.4;
   background-color: green;
 }
@@ -231,6 +231,7 @@ footer #footer .container .logo h1 b {
 }
 
 footer #footer .container .description i {
+  margin-bottom: 40px;
   color: white;
 }
 
@@ -264,5 +265,32 @@ footer #footer .adress span {
 footer #footer .adress span a {
   text-decoration: none;
   color: green;
+}
+
+#contact {
+  margin-top: 50px;
+}
+
+#contact .container .title h1 {
+  text-align: center;
+}
+
+#contact .container .line {
+  background-color: green;
+  height: 3px;
+  width: 4%;
+  margin: 0 auto;
+}
+
+#contact .container .subtitle {
+  margin-top: 20px;
+}
+
+#contact .container .subtitle p {
+  color: gray;
+}
+
+#services .container .row .col-lg-4 .icon-box .icon i {
+  font-size: 25px;
 }
 /*# sourceMappingURL=style.css.map */

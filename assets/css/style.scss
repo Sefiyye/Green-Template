@@ -100,7 +100,7 @@ header{
                         position: absolute;
                         width: 100%;
                         height: 100%;
-                        z-index: 3;
+                        z-index: 1;
                         opacity: 0.4;
                         background-color: green;
                     }
@@ -239,12 +239,15 @@ footer{
            .logo{
                h1{
                    b{
+                    
                        color: white;
                    }
                }
            }
            .description{
+               
                i{
+                margin-bottom: 40px;
                    color: white;
                }
            }
@@ -273,6 +276,58 @@ footer{
                 a{
                     text-decoration: none;
                     color: green;
+                }
+            }
+        }
+    }
+}
+
+#contact{
+    margin-top: 50px;
+    .container{
+        .title{
+           h1{
+            text-align: center;
+           }
+        }
+        .line{
+            background-color: green;
+            height: 3px;
+            width: 4%;
+            margin: 0 auto;
+        }
+        .subtitle{
+            margin-top: 20px;
+            p{
+                color: gray;
+            }
+        }
+    }
+}
+// #contact{
+//     .container{
+//         .row{
+//                 input{
+//                     width: 40%;
+//                 }
+//                 .col-lg-5{
+                    
+//                 }
+//             }
+//         }
+//     }
+
+
+#services{
+    .container{
+        .row{
+            .col-lg-4{
+                .icon-box{
+                    .icon{
+                        i{
+                            font-size: 25px;
+                        }
+                    }
                 }
             }
         }
